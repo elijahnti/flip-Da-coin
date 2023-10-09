@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(1, 2, 20, 0.897);
+    text-align: center;
+}
+
+/* coin image */
+.images {
+    padding: 3% 0 3% 0;
+}
+
+.flip {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+    width: 15%;
+    background: transparent;
+    border: 2px solid #fff;
+    height: 50px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.flip:hover {
+    background-color: rgb(2, 2, 68);
+}
+
+/* title */
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px rgb(6, 151, 96);
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+
+/* winner determiner */
+h2 {
+    color: #fff;
+    text-shadow: 2px 2px rgb(6, 151, 96);
+    font-weight: 900;
+    font-size: 2rem;
+}
